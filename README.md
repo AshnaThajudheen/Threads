@@ -153,24 +153,44 @@ AI predicts fit
 3D model renders in browser
 
 User rotates & inspects
-🌱 Why This Platform Matters
+---
 
-Reduces fashion waste
+## 🌱 Why This Platform Matters
 
-Promotes sustainability
+- Reduces fashion waste  
+- Promotes sustainability  
+- Improves online shopping confidence  
+- Encourages community-driven fashion  
 
-Improves online shopping confidence
+---
 
-Encourages community-driven fashion
-📦 Future Enhancements
+## 🔄 Virtual Try-On Flow
 
-Phone-camera body scanning
+1. User selects a clothing item  
+2. Backend fetches:
+   - Cloth mesh  
+   - User avatar model  
+3. Clothing is mapped onto the avatar  
+4. AI predicts size and fit  
+5. 3D model is rendered in the browser  
+6. User rotates, zooms, and inspects the outfit  
 
-AR try-on
+---
 
-Outfit recommendations
+## 📦 Future Enhancements
 
-AI fashion stylist
+- Phone-camera body scanning  
+- AR-based virtual try-on  
+- Outfit recommendations  
+- AI-powered fashion stylist  
+- Blockchain-based swap tracking  
 
-Blockchain-based swap tracking
-Developed by Devika,Roshan,Pavihra and Ashna
+---
+
+## 👩‍💻 Developed By
+
+**Devika**  
+**Roshan**  
+**Pavithra**  
+**Ashna**
+
