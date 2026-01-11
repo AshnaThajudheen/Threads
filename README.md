@@ -127,7 +127,7 @@ Example output:
 
 <img width="375" height="294" alt="image" src="https://github.com/user-attachments/assets/d0e18e44-0c37-406a-a775-332335024f42" />
 
-##🌱 Why This Platform Matters
+🌱 Why This Platform Matters
 
 Reduces fashion waste
 
@@ -136,3 +136,41 @@ Promotes sustainability
 Improves online shopping confidence
 
 Encourages community-driven fashion
+🔄 Virtual Try-On Flow
+
+User selects clothing
+
+Backend fetches:
+
+Cloth mesh
+
+User avatar model
+
+Cloth is mapped onto avatar
+
+AI predicts fit
+
+3D model renders in browser
+
+User rotates & inspects
+🌱 Why This Platform Matters
+
+Reduces fashion waste
+
+Promotes sustainability
+
+Improves online shopping confidence
+
+Encourages community-driven fashion
+📦 Future Enhancements
+
+Phone-camera body scanning
+
+AR try-on
+
+Outfit recommendations
+
+AI fashion stylist
+
+Blockchain-based swap tracking
+Developed by Devika,Roshan,Pavihra and Ashna
