@@ -126,7 +126,8 @@ Example output:
 ### 🧩 System Architecture
 
 <img width="375" height="294" alt="image" src="https://github.com/user-attachments/assets/d0e18e44-0c37-406a-a775-332335024f42" />
-###🌱 Why This Platform Matters
+
+##🌱 Why This Platform Matters
 
 Reduces fashion waste
 
