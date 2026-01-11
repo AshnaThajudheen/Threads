@@ -1,70 +1,127 @@
-# Getting Started with Create React App
+# 🧥 Virtual Thrift & Swap Platform with 3D Try-On
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A next-generation **sustainable fashion platform** that combines **clothing thrifting**, **barter-based swapping**, and a **real-time 3D virtual try-on system** powered by AI and computer vision.
 
-## Available Scripts
+Users can **swap clothes without money**, **buy second-hand fashion**, and **virtually try outfits on a personalized 3D avatar** before committing.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Project Vision
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Fast fashion leads to massive environmental waste and high return rates due to poor fitting.  
+This platform solves that by:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Promoting **sustainable clothing reuse**
+- Enabling **barter-based fashion exchange**
+- Using **AI-driven 3D try-on** to reduce wrong purchases
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧠 Core Features
 
-### `npm run build`
+### 1. User Accounts & Profiles
+Each user has a personalized fashion profile including:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Secure login & signup  
+- Body measurements  
+  - Height  
+  - Weight  
+  - Chest  
+  - Waist  
+  - Hips  
+  - Shoulder width  
+- Style preferences  
+- Personal clothing inventory for swap or sale  
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Clothing Listing System
+Each clothing item includes:
 
-### `npm run eject`
+| Field | Description |
+|------|-------------|
+| Images | Front, back, close-ups |
+| Size | S, M, L, XL or numeric |
+| Fabric | Cotton, denim, silk, etc |
+| Condition | New, gently used, worn |
+| Category | Swap / Buy / Both |
+| 3D Metadata | Mesh & texture for avatar fitting |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. Barter (Swap) System
+Users can exchange clothes **without money**.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Workflow:**
+1. User A lists an item
+2. User B proposes a swap using one of their items
+3. User A accepts or rejects
+4. Both users ship the items
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Optional Enhancements:**
+- Swap credits to handle unequal value  
+- Dispute resolution  
+- Admin moderation  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 4. 3D Avatar & Virtual Try-On
+Each user creates a **personalized 3D body avatar** based on:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Height  
+- Weight  
+- Chest  
+- Waist  
+- Hips  
+- Shoulder width  
 
-### Code Splitting
+Users can:
+- Try on clothes virtually  
+- Rotate and zoom  
+- View fit from all angles  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+### 5. AI-Based Size Analysis
+The platform uses **AI + computer vision** to estimate:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Body proportions  
+- Garment fit (tight / loose / perfect)  
 
-### Making a Progressive Web App
+Using:
+- Reference objects (credit card, phone, A4 paper)  
+- Standard size charts  
+- ML-based fit prediction  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Example output:
+> “This dress will fit slightly tight at the waist and loose at the hips.”
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🛠 Technology Stack
 
-### Deployment
+### Frontend
+- React.js  
+- JavaScript  
+- Three.js  
+- WebGL  
+- Tailwind CSS  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Backend
+- Python  
+- FastAPI  
+- Firebase / Appwrite  
+- PostgreSQL  
+- Cloudinary  
 
-### `npm run build` fails to minify
+### AI & 3D
+- OpenCV  
+- MediaPipe  
+- TensorFlow / PyTorch  
+- Blender  
+- CLO3D  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 🧩 System Architecture
+
